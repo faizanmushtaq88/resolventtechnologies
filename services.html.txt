@@ -1,0 +1,21 @@
+<section>
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <img src="images/service1.jpg">
+            <p>System Management</p>
+        </div>
+        <div class="card">
+            <img src="images/service2.jpg">
+            <p>Networking</p>
+        </div>
+        <div class="card">
+            <img src="images/service3.jpg">
+            <p>Data Security</p>
+        </div>
+        <div class="card">
+            <img src="images/service4.jpg">
+            <p>Software Solutions</p>
+        </div>
+    </div>
+</section>

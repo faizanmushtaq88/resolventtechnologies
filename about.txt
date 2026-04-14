@@ -1,0 +1,11 @@
+<section>
+    <h2>About Us</h2>
+    <div class="about-box">
+        <img src="images/about.jpg">
+        <div class="about-text">
+            Resolvent Technologies provides professional IT services including system management, 
+            networking, data security, and software solutions. We help businesses operate efficiently 
+            with reliable and scalable technology.
+        </div>
+    </div>
+</section>

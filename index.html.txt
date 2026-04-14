@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resolvent Technologies</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(15,23,42,0.8), rgba(15,23,42,0.9)),
+    url('images/hero.jpg') center/cover no-repeat;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 45px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #cbd5f5;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* SECTION */
+section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* ABOUT */
+.about {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    color: #cbd5f5;
+}
+
+/* SERVICES */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* WHY US */
+.why {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.why div {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* CLIENTS */
+.clients {
+    text-align: center;
+    color: #cbd5f5;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+}
+
+/* WHATSAPP */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    color: #94a3b8;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>Resolvent Technologies</h1>
+    <p>Reliable IT Solutions | Networking | Software | Data Security</p>
+    <a href="#contact" class="btn">Contact Us</a>
+</div>
+
+<!-- ABOUT -->
+<section>
+    <h2>About Us</h2>
+    <p class="about">
+        Resolvent Technologies provides professional IT services including system management, 
+        networking, data security, and software solutions. We help businesses operate efficiently 
+        with reliable and scalable technology.
+    </p>
+</section>
+
+<!-- SERVICES -->
+<section>
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">Computer System Management</div>
+        <div class="card">Networking & ISP Coordination</div>
+        <div class="card">Data Backup & Security</div>
+        <div class="card">Software Installation & Support</div>
+        <div class="card">IT Training & Support</div>
+        <div class="card">System Repair & Maintenance</div>
+    </div>
+</section>
+
+<!-- WHY US -->
+<section>
+    <h2>Why Choose Us</h2>
+    <div class="why">
+        <div>✔ Experienced IT Professionals</div>
+        <div>✔ Reliable & Secure Solutions</div>
+        <div>✔ Fast Technical Support</div>
+        <div>✔ Affordable Services</div>
+    </div>
+</section>
+
+<!-- CLIENTS -->
+<section>
+    <h2>Our Clients</h2>
+    <p class="clients">
+        We serve small and medium businesses by providing reliable IT infrastructure 
+        and technical support tailored to their needs.
+    </p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p class="contact">
+        📞 0321-7345666 <br>
+        📧 resolvent@email.com
+    </p>
+</section>
+
+<!-- WHATSAPP -->
+<a class="whatsapp" href="https://wa.me/923217345666" target="_blank">💬</a>
+
+<footer>
+    <p>© 2026 Resolvent Technologies. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
